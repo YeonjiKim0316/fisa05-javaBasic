@@ -19,7 +19,7 @@ public class Student {
     Student(String name) { // new Student("김연지")
         this.name = name; // this 라는 키워드로 인스턴의 메모리주소를 전달합니다.
     }
-
+//
     Student(String name, String className) { // new Student("김연지", "AI반")
         this.name = name; // this 라는 키워드로 인스턴의 메모리주소를 전달합니다.
         this.className = className;
