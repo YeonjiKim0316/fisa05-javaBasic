@@ -1,5 +1,9 @@
 package oop;
 
+import oop2.MyMyPublic;
+import oop2.MyProtected;
+import oop2.MyPublic;
+
 public class Main {
     public static void main(String[] args) {
         Student kim = new Student("김연지");
@@ -23,6 +27,16 @@ public class Main {
         System.out.println(lee.exit());
 //
 //        Student shin = new Student("신짱구", "AI반");
+
+        MyPublic myPublic = new MyPublic();
+        myPublic.print();
+        System.out.println(myPublic.msg);
+
+        MyProtected myProtected = new MyProtected();
+        // protected로 선언해둔 msg, print() 둘 다 접근 불가
+        // myProtected.print();
+
+        // MyDefault는 default 패키지이므로 클래스도 접근 불가
 
     }
 }
