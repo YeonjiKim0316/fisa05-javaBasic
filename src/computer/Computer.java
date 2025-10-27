@@ -13,7 +13,7 @@ public abstract class Computer {
     }
     
     // 구상메서드 
-    public void login() {
+    void login() {
         System.out.println("로그인 완료");
     }
 

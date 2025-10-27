@@ -1,4 +1,5 @@
-package computer;
+package computerInterface;
+
 
 public class Main {
     public static void main(String[] args) {
