@@ -1,6 +1,6 @@
 package paymentEx;
 
-
+// 12시 30분까지
 public class Main {
     public static void main(String[] args) {
         // 신용카드와 NaverPay 결제 객체 생성
